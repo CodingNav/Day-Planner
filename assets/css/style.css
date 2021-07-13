@@ -19,3 +19,24 @@ header h2 {
     color: navy;
 }
 
+/* CARDS CSS */
+.card {
+    margin-bottom: 15px;
+}
+
+.card-body {
+    height: 65px;
+    padding: 0;
+}
+
+.time {
+    display: inline-block;
+}
+
+textarea {
+    resize: none;
+    width: 90%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    margin-left: 20px;
+}
