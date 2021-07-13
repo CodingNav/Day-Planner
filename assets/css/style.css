@@ -1,0 +1,21 @@
+
+
+/* TOP HEADER CSS */
+header {
+    margin: 50px;
+    border-bottom: 2px solid #b9b9b9;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 70px;
+    color: orange;
+}
+
+header h2 {
+    margin-top: 30px;
+    color: navy;
+}
+
