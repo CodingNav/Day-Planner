@@ -1,5 +1,10 @@
-var currentDateEl = document.querySelector("#current-date");
+const currentDateEl = document.querySelector("#current-date");
 
 // Date on Top Bar
-var currentDate = moment().format("dddd, MMMM Do");
+const currentDate = moment().format("dddd, MMMM Do");
 currentDateEl.textContent = currentDate;
+
+// click event listener for save button
+$(".saveBtn").on("click", function() {
+
+});
