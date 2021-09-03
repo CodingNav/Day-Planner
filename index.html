@@ -6,89 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
+    <header class="jumbotron">
+        <h1>Work Day Planner</h1>
+        <h4>A Simple calendar app for scheduling your work day</h4>
+        <h2 id="current-date"></h2>
+    </header>
 
-    <div class="container-fluid">
+
+    <div class="container">
         <div class="row">
             <div class="col-12">
-                <header>
-                    <h1>Work Day Planner</h1>
-                    <h4>A Simple calendar app for scheduling your work day</h4>
-                    <h2 id="current-date"></h2>
-                </header>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">9am</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">9am</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">10am</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">10am</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">11am</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">11am</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">12pm</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">12pm</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">1pm</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">1pm</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">2pm</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">2pm</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">3pm</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">3pm</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
-                <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">4pm</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
-                </div> <!-- CARD -->
-                <div class="card">
-                    <div class="card-body">
-                        <p class="time">5pm</p>
-                        <textarea class="schedule-input"></textarea>
-                    </div>
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">4pm</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
+                </div> 
+                <!-- Timeblock -->
+                <div class="row time-block">
+                    <p class="hour col-1">5pm</p>
+                    <textarea class="schedule-input col-10"></textarea>
+                    <button class="btn saveBtn col-1"><i class="fas fa-save"></i></button>
                 </div>
             </div>
         </div>
