@@ -6,5 +6,11 @@ currentDateEl.textContent = currentDate;
 
 // click event listener for save button
 $(".saveBtn").on("click", function() {
+    var textarea = $(this).parent().find("textarea");
+    var text = textarea.text();
 
+    var timeTag = $(this).parent().find(".hour");
+    var time = timeTag.data("time");
+
+    localStorage.setItem(time, text);
 });
