@@ -25,4 +25,16 @@ $(".time-block").each(function () {
     const textarea = $(this).find("textarea");
     const text = localStorage.getItem(time);
     textarea.val(text);
+
+    const currentTime = moment().hour();
+    
+    if (time < currentTime) {
+        $(this).find("textarea").addClass("past");
+    }
+    else if (time > currentTime) {
+        $(this).find("textarea").addClass("future");
+    }
+    else {
+        $(this).find("textarea").addClass("present");
+    }
 });
